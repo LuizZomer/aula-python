@@ -90,10 +90,52 @@
 
 # exer 6
 
+# p1 = []
+# p2 = []
 
 
+# for n in range(10):
+#     numero = float(input('Digite a nota:'))
+#     p1.append(numero)
 
-        
+# for n in range(10):
+#     numero = float(input('Digite a nota 2: '))
+#     p2.append(numero)
+
+# media1 = sum(p1)/10
+# media2 = sum(p2)/10
+# print('A média 1 foi ',media1)
+# print('A média 2 foi ',media2)
+
+# if media1 > media2:
+#     print('A média da prova 1 foi maior')
+# else:
+#     print('A nota da turma 2 foi maior')
+
+# exer 8
+
+# d = {}
+
+# d['nome'] = input('Nome: ')
+# d['idade'] = input('Idade: ')
+# d['endereço'] = input('Endereço: ')
+# d['telefone'] = input('Telefone: ')
+
+# for k,v in d.items():
+#     print(f'O campo {k} tem o valor {v}')
+
+# exer 9
+
+funcionarios= [
+    {'0101':'Luiz'},
+    {'0202':'Jefe'},
+    {'0303':'Willian'},
+    {'0404':'Chris'}
+]
+
+for k,v in funcionarios.items():
+    
+
 
 
 
