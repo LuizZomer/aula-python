@@ -126,23 +126,54 @@
 
 # exer 9
 
-funcionarios= {
-    '0101':'Luiz',
-    '0202':'Jefe',
-    '0303':'Willian',
-    '0404':'Chris',
-}
+# funcionarios= {
+#     '0101':'Luiz',
+#     '0202':'Jefe',
+#     '0303':'Willian',
+#     '0404':'Chris',
+# }
 
-while len(funcionarios) > 0:
-    for k,v in funcionarios.items():
-        print(f'Codigo:{k} Funcionario:{v}')
+# while len(funcionarios) > 0:
+#     for k,v in funcionarios.items():
+#         print(f'Codigo:{k} Funcionario:{v}')
 
-    demitir = input('Escolha quem você quer demitir: ')
+#     demitir = input('Escolha quem você quer demitir: ')
 
-    print(f'{funcionarios[demitir]} foi demitido')
-    funcionarios.pop(demitir)
+#     print(f'{funcionarios[demitir]} foi demitido')
+#     funcionarios.pop(demitir)
 
-print('Todos foram demitidos')
+# print('Todos foram demitidos')
+
+# exer 10
+
+# x = int(input('Inicio: '))
+# y = int(input('Fim: '))
+
+# for c in range(x,y+1):
+#     print(c)
+
+# exer 11
+
+l1 = []
+l2 = []
+l3 = []
+cont = 0
+
+for c in range(3):
+    x = int(input('Numeros para lista 1: '))
+    l1.append(x)
+for c in range(3):
+    y = int(input('Numeros para lista 2: '))
+    l2.append(y)
+
+for r in range(3):
+    l3.append(l1[cont] + l2[cont])
+    cont+=1
+
+print(l1)
+print(l2)
+print(l3)
+
 
 
 
