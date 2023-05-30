@@ -126,16 +126,23 @@
 
 # exer 9
 
-funcionarios= [
-    {'0101':'Luiz'},
-    {'0202':'Jefe'},
-    {'0303':'Willian'},
-    {'0404':'Chris'}
-]
+funcionarios= {
+    '0101':'Luiz',
+    '0202':'Jefe',
+    '0303':'Willian',
+    '0404':'Chris',
+}
 
-for k,v in funcionarios.items():
-    
+while len(funcionarios) > 0:
+    for k,v in funcionarios.items():
+        print(f'Codigo:{k} Funcionario:{v}')
 
+    demitir = input('Escolha quem você quer demitir: ')
+
+    print(f'{funcionarios[demitir]} foi demitido')
+    funcionarios.pop(demitir)
+
+print('Todos foram demitidos')
 
 
 
