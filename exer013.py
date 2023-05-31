@@ -6,7 +6,7 @@
 
 altura = []
 
-for c in range(5):
+for c in range(15):
     a = float(input(f'Digite a altura da pessoa {c+1}: '))
     altura.append(a)
 
